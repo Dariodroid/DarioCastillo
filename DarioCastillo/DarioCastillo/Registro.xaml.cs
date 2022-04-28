@@ -29,7 +29,7 @@ namespace DarioCastillo
             }
 
             porcentage = 3000 * 0.05;
-            PagoMensal = ((3000 - int.Parse(txtCuota.Text)) / 5) + porcentage;
+            PagoMensal = ((3000 - double.Parse(txtCuota.Text)) / 5) + porcentage;
             txtPagoMensual.Text = PagoMensal.ToString();
         }
 

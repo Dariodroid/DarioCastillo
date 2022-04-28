@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DarioCastillo.Login">
+    <ContentPage.Content>       
+        <StackLayout VerticalOptions="Center" Margin="20">
+            <Image Source="https://sbsconsulting.com.ec/wp-content/uploads/2018/01/LOGO-UISRAEL-768x209.png" />
+            
+            <Entry x:Name="txtUser" Placeholder="Usuario"/>
+            <Entry x:Name="txtPassword" Placeholder="Password" IsPassword="True"/>
+            <Button x:Name="btnEntrar" Text="Entrar" BackgroundColor="#2196F3" Clicked="btnEntrar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
